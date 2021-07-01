@@ -11,4 +11,4 @@ Created on Wed Jun 30 19:32:04 2021
 a=int(input('A='))
 b=int(input('B='))
 c=int(input('C='))
-print((a==1 and b==1 and c==1) or (a==1 and b==1 and c!=1) or (a==1 and b!=1 and c==1) or (a!=1 and b==1 and c==1) )   
+print(a==b or b==c or c==a )   
