@@ -12,4 +12,4 @@ a=int(input('A='))
 b=int(input('B='))
 c=int(input('C='))
 d=b*b-4*a*c
-print(d>=0)
+print(a!=0 and d>=0)
