@@ -11,4 +11,4 @@ Created on Wed Jun 30 17:46:14 2021
 a=int(input('A='))
 b=int(input('B='))
 c=int(input('C='))
-print(a<=b<=c)
+print(a<b<c)
