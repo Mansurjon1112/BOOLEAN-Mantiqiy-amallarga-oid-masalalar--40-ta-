@@ -10,4 +10,7 @@ Created on Wed Jun 30 17:48:04 2021
 
 a=int(input('A='))
 b=int(input('B='))
+#1-usul
 print((a%2==1 or b%2==1) and not(a%2==1 and b%2==1))
+#2-usul
+print((a%2==1) and (b%2==0) or (a%2==0) and (b%2==1))
